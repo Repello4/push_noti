@@ -8,5 +8,12 @@ push.setVapidDetails('mailto:test@test.com', vapidKeys.publicKey, vapidKeys.priv
 
 
 let sub = {
+    "endpoint":"https://fcm.googleapis.com/fcm/send/cHavOaj1yLg:APA91bErGIkg-EIzxf3ndnd6CZVk1VRwFlMT8PsbUQi7HmYCzTgI8Qb8OHg_76mYluPr44Q-Oj_RdSI-Lr_4DtIF7bBumgOFrF60_fMnww1XvSuqQkzWUYw8Vld-uVPZdqEwcokEBZXy",
+    "expirationTime":null,
+    "keys":{
+        "p256dh":"BEqvdwYAcycXObLbcZslzaeavE-HcdBjz0q2m_Pt_w9W8dQcE-cREWPxJhh3y2Gt2nrgf1VkTjEJomSmDc-zQ-A",
+        "auth":"V_X8xLo6PdbtSXTejnthyg"
+    }
 }
+
 push.sendNotification(sub, 'hello');
